@@ -8,6 +8,7 @@ const HELLO_TEXT = "Hellooooo";
 
 export default function Home() {
   const isDarkMode =
+    typeof window !== "undefined" &&
     window.matchMedia &&
     window.matchMedia("(prefers-color-scheme: dark)").matches;
 
@@ -45,7 +46,7 @@ export default function Home() {
         },
       },
     }),
-    [],
+    [isDarkMode],
   );
 
   return (
