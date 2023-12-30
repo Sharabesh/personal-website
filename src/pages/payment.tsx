@@ -7,7 +7,8 @@ const Payment = () => (
         Bilt Card Subscription
       </h2>
       <p className="mt-2 text-center text-gray-600">
-        Make easy subscriptions using this payment link
+        Make easy subscriptions using this payment link. We'll charge you 50c 5
+        times a month automatically.
       </p>
 
       <div className="mt-5">
